@@ -31,9 +31,6 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
-
-
 # 라우터 추가
 app.include_router(user_router)
 app.include_router(ai_router)
